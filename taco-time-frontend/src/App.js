@@ -1,11 +1,15 @@
 import Layout from './hoc/Layout/Layout';
 import './App.css';
 
+import LaunchPage from './containers/LaunchPage/LaunchPage';
+
 const App = props => {
 	return (
 		<div>
 			<Layout>
-				<div className='App-header'></div>
+				<div className='App-header'>
+					<LaunchPage />
+				</div>
 			</Layout>
 		</div>
 	);
