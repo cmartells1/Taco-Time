@@ -7,9 +7,7 @@ const App = props => {
 	return (
 		<div>
 			<Layout>
-				<div className='App-header'>
-					<LaunchPage />
-				</div>
+				<LaunchPage />
 			</Layout>
 		</div>
 	);
