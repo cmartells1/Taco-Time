@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Projects from '../../components/RecordWorkEffort/Projects/Projects';
+import RecordWorkEffort from '../../components/RecordWorkEffort/RecordWorkEffort';
 
 const LaunchPage = props => {
 	return (
 		<React.Fragment>
-			<Projects />
+			<RecordWorkEffort />
 		</React.Fragment>
 	);
 };

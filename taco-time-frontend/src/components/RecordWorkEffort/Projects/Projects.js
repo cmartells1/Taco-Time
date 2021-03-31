@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ProjectItem from './ProjectItem/ProjectItem';
-
+import classes from './Projects.module.css';
 const projects = [
 	{
 		projectName: 'As1s',
@@ -12,7 +12,7 @@ const projects = [
 ];
 
 const Projects = props => (
-	<div>
+	<div className={classes.Projects}>
 		<p>Projects</p>
 		{projects.map(proj => (
 			<ProjectItem key={proj.projectName} projectName={proj.projectName} />
