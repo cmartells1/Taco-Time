@@ -1,3 +1,27 @@
+html {
+	height: 100%;
+}
+
+.Container {
+	margin: 0;
+	display: grid;
+	height: 100%;
+	width: 100%;
+	grid-template-rows: auto 1fr;
+	grid-template-columns: 20rem auto;
+	grid-template-areas:
+		'header header'
+		'sidedrawer main';
+}
 .Content {
 	margin-top: 72px;
+	grid-area: main;
+}
+
+.Header {
+	grid-area: header;
+}
+
+.Sidebar {
+	grid-area: sidedrawer;
 }

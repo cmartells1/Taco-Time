@@ -5,7 +5,7 @@ import LaunchPage from './containers/LaunchPage/LaunchPage';
 
 const App = props => {
 	return (
-		<div>
+		<div className='App'>
 			<Layout>
 				<LaunchPage />
 			</Layout>

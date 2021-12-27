@@ -7,9 +7,15 @@ import classes from './Layout.module.css';
 const Layout = props => {
 	return (
 		<React.Fragment>
-			<Toolbar />
-			<SideDrawer />
-			<main className={classes.Content}>{props.children}</main>
+			<div className={classes.Container}>
+				<div className={classes.Header}>
+					<Toolbar />
+				</div>
+				<div className={classes.Sidebar}>
+					<SideDrawer />
+				</div>
+				<main className={classes.Content}>{props.children}</main>
+			</div>
 		</React.Fragment>
 	);
 };
